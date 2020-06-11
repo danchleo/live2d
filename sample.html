@@ -1,0 +1,11 @@
+<script src="https://cdn.jsdelivr.net/gh/zyao-genius/live2d@v1.0/assets/live2d.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyao-genius/live2d@v1.0/assets/waifu.min.css">
+<script>
+        $(function () {
+            loadlive2d('live2d', 'https://cdn.jsdelivr.net/gh/zyao-genius/live2d@v1.0/model/xxban/model.json');
+            $("#live2d").draggable();
+        });
+    </script>
+    <div class="waifu" style="right: -70px">
+    <canvas id="live2d" class="live2d ui-draggable ui-draggable-handle" width="650" height="600" style="left: 35px; top: 5px;"></canvas>
+</div>
